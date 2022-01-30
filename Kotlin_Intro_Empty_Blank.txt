@@ -1,0 +1,68 @@
+//função principal
+   fun main() {
+	val s = ""
+    println(s.isEmpty())
+    //true
+    println(s.isBlank())
+    //true
+    println(s.isNullOrBlank())
+    println(s.isNullOrEmpty())
+    //true
+
+   }     
+//Resposta
+true
+true
+true
+true
+
+---------------------------------
+//função principal
+   fun main() {
+	val empty = ""
+    println(empty.length)   
+    val blank = "				"
+     
+	println(blank.length)   
+	 
+   }     
+//Resposta
+0
+4 
+
+______________________________________
+
+//função principal
+   fun main() {
+	val empty = ""
+    println(empty.length)   
+    val blank = "								"
+     
+	println(blank.length)
+    println(empty.isEmpty() && empty.isBlank())
+   }     
+//Resposta
+0
+4 
+true
+
+_______________________
+
+//função principal
+   fun main() {
+	val empty = ""
+    println(empty.length)   
+    val blank = "								"
+     
+	println(blank.length)
+    //println(empty.isEmpty() && empty.isBlank())
+    println(blank.isEmpty()) //mudando o comparativo
+   }     
+
+//Resposta
+0
+8 
+false
+
+
+

@@ -1,0 +1,31 @@
+//função principal
+   fun main() {
+  	 val bingo = listOf(8,96,34,2,13)
+     var number = 34
+ 	println(number)
+    println(number in bingo)
+
+}
+
+//Resposta 
+34
+true
+
+_______________________________________________________
+
+const val MAX_AGE = 16
+const val MIN_AGE = 68
+
+//função principal
+   fun main() {
+   var age = (10..100).random()
+ 	println(age)
+    println(age in MIN_AGE..MAX_AGE)
+    println(age >= MIN_AGE && age <= MAX_AGE)
+
+}
+
+//Resposta 
+46
+true
+true

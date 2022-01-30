@@ -1,0 +1,25 @@
+//var(CamelCase ( Valor definido e alterado durante a execução)
+fun main() {
+  var currentAge = 22
+    
+  var currentAge:Int?
+  currentAge = null ou 22  
+    
+}   
+
+
+//varl(CamelCase) ( Valor definido durante a compilação)
+fun main() {
+  var currentAge = 22
+    
+  var currentAge:Int?
+  currentAge = null ou 22  
+    
+}   
+
+
+//const val(Snake_Case)( Valor definido e alterado durante a execução)
+const val MIN_AGE = 16
+const val MAX_AGE = 63
+
+

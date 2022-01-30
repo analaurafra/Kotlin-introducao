@@ -1,0 +1,36 @@
+
+//função principal
+fun main() {
+   val d = 22
+   val t = 90
+    
+ 	println(d > t)
+    println(d.compareTo(t))
+
+
+}
+
+//Resultado? 
+false
+-1
+
+_________________________________
+
+//função principal
+fun main() {
+   val d = 22
+   val t = 90
+    
+ 	println(d < t)
+    println(d.compareTo(t))
+
+
+}
+
+
+//Resultado? 
+true
+-1
+
+
+

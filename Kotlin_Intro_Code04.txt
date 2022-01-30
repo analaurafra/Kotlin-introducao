@@ -1,0 +1,9 @@
+
+//função principal
+fun main() {
+	var currentYear = Int
+	currentYear = 2021.toString() + "Vai ser melhor"
+    
+    println(currentYear)
+    
+}

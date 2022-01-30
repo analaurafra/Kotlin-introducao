@@ -1,0 +1,144 @@
+//função principal
+   fun main() {
+   val grade = (0..10).random()
+   		println(grade.getStudentStatus())	
+   
+   }
+   fun Int.getStudentStatus(): String{
+       println("nota $this")
+       return when(this){
+      	 in 0..4 -> "Reprovado"
+       	 in 5..7 -> "Mediano" 
+      	 in 8..9 -> "Bom"
+      	 10 -> "Excelente"
+      	 else -> "Indefinido"
+  }         
+           
+  }  
+ 
+//resposta:
+nota 0
+Reprovado
+
+------------------------------------------------------
+
+//função principal
+   fun main() {
+
+        var t:Int
+        var x:Int? = null
+        var w:Int? = 10
+        t = x?:w ?: -1 
+       	
+       println(t)
+       
+   }
+   fun Int.getStudentStatus(): String{
+       println("nota $this")
+       return when(this){
+      	 in 0..4 -> "Reprovado"
+       	 in 5..7 -> "Mediano" 
+      	 in 8..9 -> "Bom"
+      	 10 -> "Excelente"
+      	 else -> "Indefinido"
+  }         
+           
+  }  
+    
+//resposta : 10
+
+----------------------------------------------
+
+//função principal
+   fun main() {
+
+        var x:Int? = 8
+        var w:Int? = null
+        var t:String? = x?.getStudentStatus()?: ""
+       	
+       println(t)
+       
+   }
+   fun Int.getStudentStatus():String{
+       println("nota $this")
+       return when(this){
+      	 in 0..4 -> "Reprovado"
+       	 in 5..7 -> "Mediano" 
+      	 in 8..9 -> "Bom"
+      	 10 -> "Excelente"
+      	 else -> "Indefinido"
+  }         
+           
+  }  
+    
+  //resposta
+
+nota 8
+Bom
+
+------------------------------------------------------
+
+//função principal
+   fun main() {
+
+        var x:Int? = null
+        var w:Int? = null
+        var t:String? = x?.getStudentStatus()
+       	
+       println(t)
+       
+   }
+   fun Int.getStudentStatus():String{
+       println("nota $this")
+       return when(this){
+      	 in 0..4 -> "Reprovado"
+       	 in 5..7 -> "Mediano" 
+      	 in 8..9 -> "Bom"
+      	 10 -> "Excelente"
+      	 else -> "Indefinido"
+  }         
+           
+  }  
+    
+//resposta
+null
+
+------------------------------------------------
+
+//função principal
+   fun main() {
+//função principal
+   fun main() {
+   for(i in 0..20){
+        print(" $i ")
+        
+    }
+   }
+         
+	fun downTo(){
+       for(i in 20 downTo 0){
+          print(" $i ")
+     }
+   }
+      
+   fun until(){
+       for(i in 1 until 20){
+          print(" $i ")
+                
+     }
+   }
+    fun step(num:Int){
+       for(i in 0.. 20 step num){
+          print(" $i ")
+                
+     }
+   }
+  fun letters(){
+      val sArray = "Olha essa String!"
+      for (l in sArray){
+          println(l.toUpperCase())
+        }
+   }      
+      
+
+

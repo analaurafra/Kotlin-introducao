@@ -1,0 +1,20 @@
+//função principal
+   fun main() {
+     val name = "Ana"
+     val s = "Olá"
+    
+ 	println(s + name)
+    //imprime OláAna
+    println("${s},${name}!")
+    //imprime Olá,Ana
+    println("Bem vinda(o),$name!")
+    //imprime Bem vida(o), Ana
+            
+}
+
+
+//Resposta:
+
+OláAna
+Olá,Ana!
+Bem vinda(o),Ana!

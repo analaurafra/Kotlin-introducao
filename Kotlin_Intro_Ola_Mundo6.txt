@@ -1,0 +1,29 @@
+
+//função principal
+fun main() {
+    var times = " Mundo!"
+	val count = "Olá,"
+    //println(r)
+   times += count
+   println(times) //time é igual a multiplicação
+   //println(count.plus(times))
+      
+}
+
+// - Resultado: Mundo!Olá,
+
+
+___________________________________________
+
+
+//função principal
+fun main() {
+    val count = "Olá,"
+    var times = " Mundo!"
+
+    println(count + times) //time é igual a multiplicação
+   //println(count.plus(times))
+      
+}
+
+// - Resultado:Olá,Mundo!

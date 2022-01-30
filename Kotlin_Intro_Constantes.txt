@@ -1,0 +1,186 @@
+
+//função principal
+fun main() {
+
+const val EQUAL = 0
+const val LESS = -1
+const val MORE = 1
+
+//função principal
+fun main() {
+   val d = 200
+   val t = 219
+    
+ 	println(d >= t)
+    println(d.compareTo(t) == LESS)
+
+
+}
+
+// Resposta
+
+false
+true
+
+_______________________________________
+
+
+//função principal
+fun main() {
+
+const val EQUAL = 0
+const val LESS = -1
+const val MORE = 1
+
+//função principal
+fun main() {
+   val d = 200
+   val t = 219
+    
+ 	println(d >= t)
+    println(d.compareTo(t) == EQUAL)
+
+
+}
+
+// Resposta
+false
+false
+
+_____________________________________________________
+
+
+
+const val EQUAL = 0
+const val LESS = -1
+const val MORE = 1
+
+//função principal
+fun main() {
+   val d = 200
+   val t = 219
+    
+ 	println(d >= t)
+    println(d.compareTo(t) == MORE)
+
+
+}
+
+
+
+const val EQUAL = 0
+const val LESS = -1
+const val MORE = 1
+
+//função principal
+fun main() {
+   val d = 200
+   val t = 219
+    
+ 	println(d >= t)
+    println(d.compareTo(t) == MORE)
+
+
+}
+
+Resposta
+
+false
+false
+
+________________________________________________________
+
+
+
+//testando com (d>==t)
+
+const val EQUAL = 0
+const val LESS = -1
+const val MORE = 1
+
+//função principal
+fun main() {
+   val d = 200
+   val t = 219
+    
+ 	println(d <= t)
+    println(d.compareTo(t) == LESS)
+
+
+}
+Resposta
+
+true
+true
+
+
+
+//testando com (d>==t)
+
+const val EQUAL = 0
+const val LESS = -1
+const val MORE = 1
+
+//função principal
+fun main() {
+   val d = 200
+   val t = 219
+    
+ 	println(d <= t)
+    println(d.compareTo(t) == LESS)
+
+
+}
+Resposta
+
+true
+false
+
+
+
+//testando com (d>==t)
+
+const val EQUAL = 0
+const val LESS = -1
+const val MORE = 1
+
+//função principal
+fun main() {
+   val d = 200
+   val t = 219
+    
+ 	println(d <= t)
+    println(d.compareTo(t) == MORE)
+
+
+}
+Resposta
+
+true
+False
+
+________________________________________
+
+Quando (d != t)
+
+const val EQUAL = 0
+const val LESS = -1
+const val MORE = 1
+
+//função principal
+fun main() {
+   val d = 200
+   val t = d
+    
+ 	println(d != t)
+    println(!d.equals(t))
+
+
+}
+
+//Resposta:
+
+false
+false
+
+

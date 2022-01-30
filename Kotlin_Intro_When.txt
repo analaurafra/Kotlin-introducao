@@ -1,0 +1,25 @@
+//função principal
+   fun main() {
+          
+    val MaxValue = if (a > b) a else if (a < b) b else b
+       
+       val minValue = if (a > b){
+           println("b($b) é o menor valor")
+           b 
+       }else if (a < b){
+           println("a($a) é o menor valor")
+           a
+       }else {
+           println("os valores são iguais")
+           b 
+      
+
+
+
+
+        
+
+
+
+
+

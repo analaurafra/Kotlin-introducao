@@ -1,0 +1,23 @@
+
+
+//função principal
+fun main() {
+	var month: Int? = null
+//Atribui valor null corretamente a month    
+    
+}
+
+
+__________________________________________________
+
+
+
+//função principal
+fun main() {
+	var day: Int = null
+//Erro de compilação
+ 
+// tipo do erro: "Null can not be a value of a non-null type Int"    
+    
+}
+

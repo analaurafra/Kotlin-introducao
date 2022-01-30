@@ -1,0 +1,20 @@
+
+//função principal
+fun main() {
+  val maxAge = 68
+  var currentAge:Int
+  currentAge = 90
+  
+  println(maxAge)    
+    
+}   
+    
+
+
+//Possívei erros - Uma  variável  não pode ser  declarada sem  tipo e atribuição
+var currentAge
+currentAge = 22 //Erro
+
+var currentYear = "Ano"
+currentYear = 2021 //Erro
+
